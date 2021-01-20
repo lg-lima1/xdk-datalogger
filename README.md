@@ -21,7 +21,7 @@ XDK Datalogger logs sensor data to a file in the SD Card. The output file is `da
   - `index.xdk` file need to exist on the card, otherwise it will not work. 
 
 ## Features
-- No more complete file overwrite on reboot. A new file it's creates for each session.
+- No more complete file overwrite on reboot. A new file it's created for each session.
 - File count index retention on a second file named "index.xdk", stops files getting overwrited on reboot.
 - Battery voltage monitoring.
 - No known file size limit for a session.
